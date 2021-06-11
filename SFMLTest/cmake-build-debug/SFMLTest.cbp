@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SFMLTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFMLTest">
+				<Option output="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/SFMLTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/headers"/>
+					<Add directory="/usr/include"/>
+					<Add directory="D:/Data/CppLibs/SFML-2.5.1x64/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLTest"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFMLTest/fast">
+				<Option output="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/SFMLTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/headers"/>
+					<Add directory="/usr/include"/>
+					<Add directory="D:/Data/CppLibs/SFML-2.5.1x64/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLTest/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/DebugUtil.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/DebugUtil.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/GameConstants.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/GameConstants.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/HUD.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/HUD.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Input/Input.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Input/Input.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Input/InputController.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Input/InputController.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/TimeUtil.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/TimeUtil.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Universe.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Universe.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Vec2D.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Vec2D.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/main.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Asteroids/Asteroid.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Asteroids/Asteroid.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Collectibles/ChainingStar.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Collectibles/ChainingStar.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Collectibles/RechargeStar.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Collectibles/RechargeStar.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Collectibles/Star.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Collectibles/Star.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/FallingObject.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/FallingObject.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Particles/Particle.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Particles/Particle.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/GameObject.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/GameObject.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/Player.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/Player.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/Projectiles/Projectile.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/Projectiles/Projectile.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

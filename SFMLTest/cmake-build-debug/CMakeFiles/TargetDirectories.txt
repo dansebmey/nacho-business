@@ -1,0 +1,3 @@
+D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/CMakeFiles/SFMLTest.dir
+D:/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-debug/CMakeFiles/edit_cache.dir
