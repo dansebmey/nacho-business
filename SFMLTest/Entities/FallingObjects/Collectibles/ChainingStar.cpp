@@ -10,7 +10,7 @@ ChainingStar::ChainingStar(Vec2D pos, float movSpeed) : Star(pos, movSpeed) {
     size *= 1.5f;
 }
 
-void ChainingStar::draw(sf::RenderWindow *window) {
+void ChainingStar::draw(sf::RenderWindow* window) {
     sf::CircleShape shape(size, 16);
     float intensity = 127 + 127 * sin(frameCount * 0.1f);
     shape.setFillColor(sf::Color(intensity, 255, 255));

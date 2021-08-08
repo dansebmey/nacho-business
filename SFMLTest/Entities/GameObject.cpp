@@ -32,3 +32,7 @@ bool GameObject::isDestroyConditionMet() {
 void GameObject::setDestroyConditionMet() {
     destroyConditionMet = true;
 }
+
+void GameObject::multiplyMovSpeed(float multiplier) {
+    movSpeed *= multiplier;
+}

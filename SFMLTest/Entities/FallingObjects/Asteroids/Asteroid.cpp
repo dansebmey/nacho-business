@@ -15,7 +15,8 @@ void Asteroid::update() {
     FallingObject::update();
 
     if (isSwaying) {
-        pos.x = initPosX + 128 * sin(frameCount * 0.025f);
+//        pos.x = initPosX + 128 * sin(frameCount * 0.025f);
+        applyForce(Vec2D(movSpeed * 0.1f * sin(frameCount * 0.025f), 0));
     }
 }
 
@@ -30,6 +31,8 @@ void Asteroid::takeDamage(int amount) {
     if (remainingLives <= 0) {
         destroyConditionMet = true;
 
+        Universe::getInstance().increasePlayerScore(10);
+        Universe::getInstance().increaseAsteroidPoints(10);
         Universe::getInstance().spawnCollectible(pos);
     }
 }

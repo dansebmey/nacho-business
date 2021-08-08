@@ -34,11 +34,25 @@ void Player::draw(sf::RenderWindow* window) {
 }
 
 void Player::fire() {
-    if (framesSinceLastShot >= 6 && energy >= projectileEnergyCost) {
-        Universe::getInstance().spawnObject(new class Projectile(Vec2D(pos.x - size * 0.75f, pos.y)));
-        Universe::getInstance().spawnObject(new class Projectile(Vec2D(pos.x + size * 0.75f, pos.y)));
+    int frameThreshold = isNitroBoostActive ? 3 : 6;
+    if (framesSinceLastShot >= frameThreshold && energy >= projectileEnergyCost) {
+        if (blasterLevel != 1) {
+            Universe::getInstance().spawnObject(new class Projectile(Vec2D(pos.x, pos.y - size * 0.75f)));
+        }
+        if (blasterLevel >= 1) {
+            Universe::getInstance().spawnObject(new class Projectile(Vec2D(pos.x - size * 0.75f, pos.y)));
+            Universe::getInstance().spawnObject(new class Projectile(Vec2D(pos.x + size * 0.75f, pos.y)));
+
+            if (blasterLevel >= 3) {
+                Universe::getInstance().spawnObject(new class Projectile(Vec2D(pos.x - size * 0.375f, pos.y - size * 0.375f)));
+                Universe::getInstance().spawnObject(new class Projectile(Vec2D(pos.x + size * 0.375f, pos.y - size * 0.375f)));
+            }
+        }
         framesSinceLastShot = 0;
-        energy -= projectileEnergyCost;
+
+        if (blasterLevel < 4) {
+            energy -= projectileEnergyCost;
+        }
     }
 }
 
@@ -49,6 +63,7 @@ void Player::setShooting(bool toggle) {
 }
 
 void Player::setNitroThrustersActive(bool toggle) {
+    isNitroBoostActive = toggle;
     movSpeed = GameConstants::playerMovSpeed * (toggle && energy > 0.025f ? 2 : 1);
 }
 
@@ -94,7 +109,7 @@ void Player::handleMovement() {
 }
 
 void Player::handleEnergyDepletion() {
-    if (energy > 0 && movSpeed > GameConstants::playerMovSpeed) {
+    if (energy > 0 && isNitroBoostActive) {
         energy -= nitroBoostEnergyCost;
         if (energy < energyRegenSpeed) {
             setNitroThrustersActive(false);
@@ -136,4 +151,21 @@ void Player::handleCollisionDetection() {
             }
         }
     }
+}
+
+void Player::levelUp() {
+    playerLevel++;
+    energy = 1;
+
+    if (livesRemaining < 3) {
+        livesRemaining++;
+        Universe::getInstance().hud->playerHealth = livesRemaining;
+    }
+    else {
+        blasterLevel++;
+    }
+}
+
+int Player::getLevel() {
+    return playerLevel;
 }

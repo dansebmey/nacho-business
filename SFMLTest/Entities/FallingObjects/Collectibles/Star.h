@@ -19,4 +19,7 @@ class Star : public FallingObject {
     protected:
         int pointValue;
         float rechargeValue;
+
+        virtual void AssignSpecificScorePoints();
+        virtual void OnOutOfScreen();
 };

@@ -9,6 +9,10 @@ class RechargeStar : public Star {
         void draw(sf::RenderWindow *window) override;
 
         void onPickup() override;
+
+    protected:
+        void AssignSpecificScorePoints() override;
+        void OnOutOfScreen() override;
 };
 
 

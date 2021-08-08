@@ -1,0 +1,5 @@
+/opt/cmake/cmake-3.19.3-Linux-x86_64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest"
+-- Found SFML .. in /opt/modules/sfml/SFML-2.5.1/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile

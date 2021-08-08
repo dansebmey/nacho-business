@@ -102,6 +102,6 @@ void InputController::onKeyUp(int action) {
     }
 }
 
-//InputController::~InputController() {
-//    delete window;
-//}
+InputController::~InputController() {
+    delete window;
+}

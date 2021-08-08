@@ -6,6 +6,7 @@
 #include "../Entities/FallingObjects/Collectibles/Star.h"
 #include "../Entities/FallingObjects/Particles/Particle.h"
 #include "../Entities/FallingObjects/Collectibles/RechargeStar.h"
+#include <algorithm>
 
 Universe::Universe() {
     window = new sf::RenderWindow(sf::VideoMode(GameConstants::screenWidth, GameConstants::screenHeight), "(S)FML");
@@ -26,7 +27,6 @@ Universe& Universe::getInstance() {
 }
 
 void Universe::registerObject(GameObject* object) {
-    std::cout << "New object registered (index: " << gameObjects.size() << " | " << &gameObjects << ")" << std::endl;
     gameObjects.push_back(object);
 }
 
@@ -55,7 +55,6 @@ void Universe::_updateObjects() {
 
         if (gObj->isDestroyConditionMet()) {
             gObjs.erase(gObjs.begin() + i);
-            std::cout << gObj << std::endl;
             delete gObj;
         }
     }
@@ -82,6 +81,7 @@ void Universe::_drawObjects() {
 }
 
 void Universe::spawnObject(GameObject* object) {
+    object->multiplyMovSpeed(std::max(1.0f, 0.5f + (playerScore * 0.00025f)));
     registerObject(object);
 }
 
@@ -99,7 +99,7 @@ void Universe::handleRechargeStarSpawning() {
 
 void Universe::handleEnemySpawning() {
     static int spawnCounter;
-    if (TimeUtil::getInstance().hasTimePassed(1000)) {
+    if (TimeUtil::getInstance().hasTimePassed(1000 / std::max(1.0f, 0.5f + (playerScore * 0.00025f)))) {
 //    if (TimeUtil::getInstance().hasTimePassed(std::max(1000 - playerScore * 2, 400))) {
         spawnCounter++;
         if (spawnCounter < 8) {
@@ -123,9 +123,13 @@ std::vector<GameObject*> Universe::getGameObjects() {
     return gameObjects;
 }
 
-void Universe::increasePlayerScore(int i) {
-    playerScore += i;
+void Universe::increasePlayerScore(int score) {
+    playerScore += score;
     hud->playerScore = playerScore;
+
+    if (playerScore >= GameConstants::scoreRequiredPerLevel * player->getLevel()) {
+        player->levelUp();
+    }
 }
 
 void Universe::spawnAsteroidRain(int amount) {
@@ -153,8 +157,21 @@ Universe::~Universe() {
     delete window;
     delete inputController;
     delete player;
+    delete hud;
 
     std::for_each(begin(gameObjects), end(gameObjects), [&](GameObject* obj) {
         delete obj;
     });
+}
+
+void Universe::increaseAsteroidPoints(int points) {
+    hud->asteroidPts += points;
+}
+
+void Universe::increaseSmallStarPoints(int points) {
+    hud->smallStarPts += points;
+}
+
+void Universe::increaseBigStarPoints(int points) {
+    hud->bigStarPts += points;
 }

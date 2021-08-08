@@ -80,11 +80,11 @@ float Vec2D::dot(Vec2D a, Vec2D b) {
     return (a.x * b.x) + (a.y * b.y);
 }
 
+Vec2D Vec2D::normalised() {
+    return Vec2D(x / sqrtMagnitude(), y / sqrtMagnitude());
+}
+
 float Vec2D::cross(Vec2D a, Vec2D b) {
 //    return Vector2()
     return 1;
-}
-
-Vec2D Vec2D::normalised() {
-    return Vec2D(x / sqrtMagnitude(), y / sqrtMagnitude());
 }

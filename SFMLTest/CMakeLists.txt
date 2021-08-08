@@ -29,7 +29,8 @@ add_executable(SFMLTest
         Entities/Player.cpp
         Entities/Projectiles/Projectile.h
         Entities/Projectiles/Projectile.cpp
-        Entities/FallingObjects/Asteroids/Asteroid.h
+        Entities/FallingObjects/FallingObject.h
+        Entities/FallingObjects/FallingObject.cpp
         Entities/FallingObjects/Asteroids/Asteroid.cpp
         Entities/FallingObjects/Collectibles/Star.h
         Entities/FallingObjects/Collectibles/Star.cpp
@@ -44,6 +45,7 @@ add_executable(SFMLTest
 include_directories(headers /usr/include D:/Data/CppLibs/SFML-2.5.1x64/include)
 
 set(SFML_ROOT D:/Data/CppLibs/SFML-2.5.1x64)
+#set(SFML_ROOT /opt/modules/sfml/SFML-2.5.1/)
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
 find_package(SFML REQUIRED system window graphics network audio)
 if (SFML_FOUND)

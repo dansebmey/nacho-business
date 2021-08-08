@@ -12,7 +12,12 @@ class Player : public GameObject {
         void handleMovementInput(int dir);
         void takeDamage(int amount);
         void gainEnergy(float amount);
+
+        void levelUp();
+        int getLevel();
+
     private:
+        int playerLevel = 1;
         int livesRemaining = 3;
         float energy = 1;
 
@@ -21,6 +26,8 @@ class Player : public GameObject {
         float playerVelocity;
 
         bool autofireActive;
+        int blasterLevel = 0;
+
         void update() override;
         void draw(sf::RenderWindow* window) override;
 
@@ -34,7 +41,9 @@ class Player : public GameObject {
 
         float energyRegenSpeed = 0.0002f;
         float projectileEnergyCost = 0.01f;
-        float nitroBoostEnergyCost = 0.02f;
+        float nitroBoostEnergyCost = 0.01f;
 
         void handleCollisionDetection();
+
+        bool isNitroBoostActive;
 };

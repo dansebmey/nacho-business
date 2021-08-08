@@ -1,0 +1,3 @@
+/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/CMakeFiles/rebuild_cache.dir
+/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/CMakeFiles/edit_cache.dir
+/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/CMakeFiles/SFMLTest.dir

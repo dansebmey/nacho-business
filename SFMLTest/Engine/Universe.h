@@ -27,10 +27,16 @@ class Universe {
         Player* getPlayer();
         std::vector<GameObject*> getGameObjects();
 
-        void increasePlayerScore(int i);
+        int consecutiveBigStarPickups;
+        void increasePlayerScore(int score);
+        void increaseAsteroidPoints(int points);
+        void increaseSmallStarPoints(int points);
+        void increaseBigStarPoints(int points);
+
         void restartGame();
 
         ~Universe();
+
     private:
         Universe();
 
@@ -48,7 +54,6 @@ class Universe {
         void handleParticleSpawning();
 
         int playerScore;
-
 };
 
 

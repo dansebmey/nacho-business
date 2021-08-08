@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SFMLTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFMLTest">
+				<Option output="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/SFMLTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/headers"/>
+					<Add directory="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/D:/Data/CppLibs/SFML-2.5.1x64/include"/>
+					<Add directory="/opt/modules/sfml/SFML-2.5.1/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 SFMLTest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFMLTest/fast">
+				<Option output="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/SFMLTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/headers"/>
+					<Add directory="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/D:/Data/CppLibs/SFML-2.5.1x64/include"/>
+					<Add directory="/opt/modules/sfml/SFML-2.5.1/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 SFMLTest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/HKU/Jaar\ 1/Blok\ 4/Kernmodule/Git/nacho-business/SFMLTest/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/DebugUtil.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/DebugUtil.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/GameConstants.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/GameConstants.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/HUD.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/HUD.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Input/Input.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Input/Input.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Input/InputController.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Input/InputController.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/TimeUtil.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/TimeUtil.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Universe.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Universe.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Vec2D.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/Vec2D.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Engine/main.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Asteroids/Asteroid.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Asteroids/Asteroid.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Collectibles/ChainingStar.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Collectibles/ChainingStar.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Collectibles/RechargeStar.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Collectibles/RechargeStar.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Collectibles/Star.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Collectibles/Star.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/FallingObject.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/FallingObject.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Particles/Particle.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/FallingObjects/Particles/Particle.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/GameObject.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/GameObject.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/Player.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/Player.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/Projectiles/Projectile.cpp">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/Entities/Projectiles/Projectile.h">
+			<Option target="SFMLTest"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/HKU/Jaar 1/Blok 4/Kernmodule/Git/nacho-business/SFMLTest/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

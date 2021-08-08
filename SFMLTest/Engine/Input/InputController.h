@@ -12,7 +12,7 @@ class InputController {
 
         void handleInput();
 
-//        ~InputController();
+        ~InputController();
     private:
         enum Button {
             ExitGame = 1,

@@ -20,6 +20,8 @@ class GameObject {
         bool isDestroyConditionMet();
         void setDestroyConditionMet();
 
+        void multiplyMovSpeed(float multiplier);
+
     protected:
         int frameCount;
 

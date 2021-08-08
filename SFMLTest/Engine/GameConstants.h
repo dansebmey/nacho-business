@@ -10,6 +10,8 @@ class GameConstants {
         static const int playerMovSpeed = 250;
         static const int enemyMovSpeed = 100;
         static const int projectileMovSpeed = 500;
+
+        static const int scoreRequiredPerLevel = 2500;
 };
 
 

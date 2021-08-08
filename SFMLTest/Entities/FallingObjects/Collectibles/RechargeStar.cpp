@@ -2,9 +2,10 @@
 #include "RechargeStar.h"
 #include "../../../Engine/Universe.h"
 #include <math.h>
+#include <algorithm>
 
 RechargeStar::RechargeStar(Vec2D pos, float movSpeed) : Star(pos, movSpeed) {
-    pointValue = 5;
+    pointValue = 50;
     rechargeValue = 0.25f;
     size *= 1.5f;
 }
@@ -18,4 +19,19 @@ void RechargeStar::draw(sf::RenderWindow *window) {
 
 void RechargeStar::onPickup() {
     Star::onPickup();
+
+    int comboPoints = std::min(Universe::getInstance().consecutiveBigStarPickups * 10, 100);
+    Universe::getInstance().increasePlayerScore(comboPoints);
+
+    Universe::getInstance().consecutiveBigStarPickups++;
+}
+
+void RechargeStar::AssignSpecificScorePoints() {
+    int comboPoints = std::min(Universe::getInstance().consecutiveBigStarPickups * 10, 100);
+    Universe::getInstance().increaseBigStarPoints(pointValue + comboPoints);
+}
+
+void RechargeStar::OnOutOfScreen() {
+    Star::OnOutOfScreen();
+    Universe::getInstance().consecutiveBigStarPickups = 0;
 }

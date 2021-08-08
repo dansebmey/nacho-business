@@ -4,7 +4,7 @@
 #include <SFML/Graphics/CircleShape.hpp>
 
 Star::Star(Vec2D pos, float movSpeed) : FallingObject(Type::Collectible, pos, 7, movSpeed) {
-    pointValue = 1;
+    pointValue = 25;
     rechargeValue = 0.1f;
 }
 
@@ -13,6 +13,7 @@ void Star::update() {
 
     if (pos.y > GameConstants::screenHeight) {
         destroyConditionMet = true;
+        OnOutOfScreen();
     }
 }
 
@@ -34,4 +35,14 @@ float Star::getRechargeValue() {
 void Star::onPickup() {
     Universe::getInstance().increasePlayerScore(pointValue);
     Universe::getInstance().getPlayer()->gainEnergy(rechargeValue);
+
+    AssignSpecificScorePoints();
+}
+
+void Star::AssignSpecificScorePoints() {
+    Universe::getInstance().increaseSmallStarPoints(pointValue);
+}
+
+void Star::OnOutOfScreen() {
+
 }
